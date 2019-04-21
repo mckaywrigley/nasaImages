@@ -7,8 +7,8 @@ import Images from "./components/Images";
 class App extends Component {
   render() {
     return (
-      <div>
-        <h1>NASA Image Search</h1>
+      <div className="App">
+        <h1>Image Search</h1>
         <SearchBar />
         <Images />
       </div>
