@@ -1,4 +1,4 @@
-import IMAGE_DATA from "../types";
+import { IMAGE_DATA } from "../actions/types";
 
 const initialState = {
   images: []
