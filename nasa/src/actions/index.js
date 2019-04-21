@@ -13,7 +13,7 @@ export const getImages = searchTerm => dispatch => {
     .then(res => {
       dispatch({
         type: IMAGE_DATA,
-        payload: res.data
+        payload: res.data.results
       });
       console.log(res);
     })
